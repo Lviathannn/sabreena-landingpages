@@ -1,4 +1,6 @@
 import React from "react";
+import TextCaption from "./TextCaption";
+import { homeCaption } from "@/data/dummy";
 
 export default function HomeCaption() {
     return (
@@ -9,14 +11,10 @@ export default function HomeCaption() {
                     Construction
                 </span>
             </h1>
-            <p className="text-[16px] text-tertiary">
-                Selamat Datang di
-                Sabreena Construction!{" "}
-                <br />
-                Bersama Kami,Bangunan
-                Impian Anda Menjadi
-                Nyata
-            </p>
+            <TextCaption
+                customClassName="lg:max-w-lg"
+                text={homeCaption}
+            />
             <div className="flex gap-5">
                 <button className="rounded-bl-sm rounded-br-2xl rounded-tl-2xl rounded-tr-sm bg-primary px-8 py-2 text-sm text-white shadow-2xl shadow-primary transition-all  hover:px-12">
                     Explore

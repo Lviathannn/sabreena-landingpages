@@ -1,5 +1,5 @@
+import HomeCaption from "@/components/HomeCaption";
 import Image from "next/image";
-import HomeCaption from "./HomeCaption";
 
 export default function HomeSection() {
     return (

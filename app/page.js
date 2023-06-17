@@ -1,7 +1,8 @@
-import FlowNavbar from "@/components/navbar/FlowNavbar";
-import HomeSection from "@/components/home/HomeSection";
-import FlowFooter from "@/components/footer/FlowFooter";
-import AboutSection from "@/components/about/AboutSection";
+import AboutSection from "@/section/AboutSection";
+import FlowFooter from "@/section/FlowFooter";
+import FlowNavbar from "@/section/FlowNavbar";
+import HomeSection from "@/section/HomeSection";
+
 
 export default function Home() {
     return (
