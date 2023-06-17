@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import {Footer} from 'flowbite-react';
+import { Footer } from "flowbite-react";
 
 export default function FlowFooter() {
     return (
-        <Footer container>
-            <div className="w-full text-center md:mx-10">
+        <Footer container className="mt-10">
+            <div className=" w-full text-center md:mx-10">
                 <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
                     <Footer.Brand
                         alt="Sabreena Construction Logo"
@@ -28,7 +28,7 @@ export default function FlowFooter() {
                         </Footer.Link>
                     </Footer.LinkGroup>
                 </div>
-                <Footer.Divider/>
+                <Footer.Divider />
                 <Footer.Copyright
                     by="Sabreena Construction™"
                     href="#"
@@ -36,7 +36,5 @@ export default function FlowFooter() {
                 />
             </div>
         </Footer>
-    )
+    );
 }
-
-
