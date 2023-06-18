@@ -1,5 +1,5 @@
 import React from "react";
-import TextCaption from "./TextCaption";
+import TextCaption from "../TextCaption";
 import { homeCaption } from "@/data/dummy";
 
 export default function HomeCaption() {
@@ -23,7 +23,7 @@ export default function HomeCaption() {
                     Contact
                 </button>
             </div>
-            <div className="mt-10 flex justify-center gap-8 sm:justify-start lg:justify-center">
+            <div className="mt-10 flex items-center justify-evenly gap-8 sm:justify-start">
                 <div className="flex flex-col">
                     <p
                         className="relative text-[25px] font-medium text-secondary before:absolute
@@ -32,7 +32,7 @@ export default function HomeCaption() {
                         500+
                     </p>
                     <p className="text-[15px] text-tertiary">
-                        Project Selesai
+                        Project
                     </p>
                 </div>
                 <div className="flex flex-col">
@@ -43,7 +43,7 @@ export default function HomeCaption() {
                         200+
                     </p>
                     <p className="text-[15px] text-tertiary">
-                        Bangunan Selesai
+                        Bangunan
                     </p>
                 </div>
                 <div className="flex flex-col">
@@ -54,7 +54,7 @@ export default function HomeCaption() {
                         50+
                     </p>
                     <p className="text-[15px] text-tertiary">
-                        Total Pegawai
+                        Pegawai
                     </p>
                 </div>
             </div>

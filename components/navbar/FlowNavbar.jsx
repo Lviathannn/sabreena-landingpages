@@ -3,8 +3,8 @@ import {
     useEffect,
     useState,
 } from "react";
-import NavbarLink from "@/components/NavbarLink";
-import NavButton from "@/components/NavButton";
+import NavbarLink from "@/components/navbar/NavbarLink";
+import NavButton from "@/components/navbar/NavButton";
 
 export default function FlowNavbar() {
     const [isOpen, setIsOpen] =
@@ -30,7 +30,7 @@ export default function FlowNavbar() {
     return (
         <header>
             <nav className="fixed top-0 z-50 w-full border-gray-200 bg-white/80 backdrop-blur-xl dark:bg-gray-900">
-                <div className="mx-5 flex max-w-screen-2xl flex-wrap items-center justify-between p-4 md:mx-14 ">
+                <div className=" flex max-w-screen-2xl flex-wrap items-center justify-between p-4 md:mx-10 xl:mx-32 ">
                     <a
                         href=""
                         className="flex items-center"

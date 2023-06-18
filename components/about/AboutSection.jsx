@@ -6,13 +6,13 @@ import Link from "next/link";
 
 export default function AboutSection() {
     return (
-        <section className="flex flex-col justify-center gap-20 px-10 lg:px-24">
+        <section className="flex flex-col justify-between gap-20 px-5 py-12 sm:mx-10 lg:px-20">
             <CaptionTitle
                 firstWord="About"
                 secondWord="Us"
                 subtitle="Siapa Kami?"
             />
-            <div className=" flex flex-col items-center justify-center gap-24 md:gap-10 lg:flex-row">
+            <div className=" flex flex-col items-center justify-around gap-24 md:gap-10 lg:flex-row">
                 <Image
                     src="/aboutus.webp"
                     className="h-72 w-64 self-center rounded-b-md rounded-tl-md rounded-tr-[30%] bg-contain sm:h-96 sm:w-80 sm:self-start lg:h-[400px] lg:w-[350px] xl:h-[500px] xl:w-[450px]"

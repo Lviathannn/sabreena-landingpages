@@ -5,7 +5,7 @@ export default function CaptionTitle({
 }) {
     return (
         <div className="flex w-full flex-col items-center justify-center">
-            <h2 className="text-[38px] font-semibold leading-10 text-secondary">
+            <h2 className="text-[38px] font-semibold leading-normal text-secondary">
                 {firstWord}{" "}
                 <span className="text-primary">
                     {secondWord}

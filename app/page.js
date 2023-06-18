@@ -1,7 +1,8 @@
-import AboutSection from "@/section/AboutSection";
-import FlowFooter from "@/section/FlowFooter";
-import FlowNavbar from "@/section/FlowNavbar";
-import HomeSection from "@/section/HomeSection";
+import AboutSection from "@/components/about/AboutSection";
+import FlowFooter from "@/components/footer/FlowFooter";
+import FlowNavbar from "@/components/navbar/FlowNavbar";
+import HomeSection from "@/components/home/HomeSection";
+import WhyChooseSection from "@/components/about/WhyChooseSection";
 
 
 export default function Home() {
@@ -10,7 +11,8 @@ export default function Home() {
             <FlowNavbar/>
             <main className="overflow-hidden">
                 <HomeSection />
-                <AboutSection/>
+                <AboutSection />
+                <WhyChooseSection/>
             </main>
             <FlowFooter/>
         </>
