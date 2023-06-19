@@ -3,10 +3,14 @@ import TextCaption from "@/components/TextCaption";
 import { aboutUsText } from "@/data/dummy";
 import Image from "next/image";
 import Link from "next/link";
+import WhyChoose from "./WhyChoose";
 
 export default function AboutSection() {
     return (
-        <section className="flex flex-col justify-between gap-20 px-5 py-12 sm:mx-10 lg:px-20">
+        <section
+            className="flex flex-col justify-between gap-20 px-5 py-12 sm:mx-10 lg:px-20"
+            id="About"
+        >
             <CaptionTitle
                 firstWord="About"
                 secondWord="Us"
@@ -56,6 +60,7 @@ export default function AboutSection() {
                     </div>
                 </article>
             </div>
+            <WhyChoose />
         </section>
     );
 }

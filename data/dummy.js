@@ -9,17 +9,24 @@ export const homeCaption =
 export const whyUsListData = [
     {
         id: "01",
-        shape: "blueShape",
+        shape: "blue",
         text: "Kami memiliki tim ahli yang berpengalaman dalam kontraktor rumah dan gedung, serta spesialis dalam ornamen besi, ornamen krawangan masjid, ornamen plafond, dan pembuatan sumur bor",
     },
     {
         id: "02",
-        shape: "greenShape",
+        shape: "green",
         text: "Kami berkomitmen untuk memberikan hasil akhir berkualitas tinggi yang memenuhi standar tertinggi dan memperhatikan setiap detail.",
     },
     {
         id: "03",
-        shape: "orangeShape",
+        shape: "orange",
         text: "Kepercayaan Anda adalah prioritas kami. Kami menjaga komunikasi yang baik dengan klien dan berusaha memenuhi harapan mereka dalam setiap proyek.",
     },
+];
+
+export const links = [
+    "Home",
+    "About",
+    "Services",
+    "Contact",
 ];
