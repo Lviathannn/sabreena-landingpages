@@ -20,9 +20,9 @@ export default function WhyUsList({
         );
 
     return (
-        <div className="flex justify-center gap-5">
+        <div className="flex justify-center gap-6">
             <h4
-                className={`relative text-[42px] font-semibold leading-tight before:absolute before:-left-8   before:top-3 before:-z-10 before:md:-left-12 ${memoizedContentClass}`}
+                className={`relative text-[42px] font-semibold leading-tight before:absolute before:-left-4 before:-z-10 before:sm:-left-12 before:md:top-3 ${memoizedContentClass}`}
             >
                 {id}
             </h4>

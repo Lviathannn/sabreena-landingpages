@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function HomeSection() {
     return (
         <section
-            className="flex flex-col justify-around gap-5 px-5 py-20 md:px-16 lg:flex-row-reverse lg:px-24"
+            className="flex flex-col justify-around gap-5 px-5 py-5 md:px-16 lg:flex-row-reverse lg:px-24"
             id="Home"
         >
             <Image

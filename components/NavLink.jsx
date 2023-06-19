@@ -7,7 +7,6 @@ export default function NavLink({
 }) {
     return (
         <Typography
-            as="li"
             variant="small"
             color="blue-gray"
             className="p-1 !font-poppins font-medium"

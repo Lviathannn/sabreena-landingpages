@@ -2,9 +2,9 @@
 import React from "react";
 import {
     Navbar as Nav,
-    MobileNav,
     Typography,
     IconButton,
+    Collapse,
 } from "@material-tailwind/react";
 import NavList from "./NavList";
 
@@ -87,11 +87,11 @@ export default function Navbar() {
                         </IconButton>
                     </div>
                 </div>
-                <MobileNav
+                <Collapse
                     open={openNav}
                 >
                     <NavList />
-                </MobileNav>
+                </Collapse>
             </Nav>
         </>
     );

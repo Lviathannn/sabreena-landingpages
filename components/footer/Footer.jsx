@@ -1,10 +1,11 @@
 "use client";
+import { links } from "@/data/dummy";
 import { Typography } from "@material-tailwind/react";
 import Image from "next/image";
+import { Link } from "react-scroll";
 import NavLink from "../NavLink";
-import { links } from "@/data/dummy";
 
-export default function Footer() {
+export default function Example() {
     return (
         <footer className="w-full bg-white p-8">
             <div className="flex flex-row flex-wrap items-center justify-center gap-x-12 gap-y-6 bg-white text-center md:justify-between">
@@ -12,19 +13,16 @@ export default function Footer() {
                     <Image
                         src="/logo.png"
                         alt="Sabreena Construction Logo"
-                        className="w-9"
-                        width={40}
-                        height={40}
+                        className="w-10"
+                        width={50}
+                        height={50}
                     />
-                    <Typography
-                        as="p"
-                        className="!font-poppins text-xl font-semibold"
-                    >
+                    <h3 className="text-lg font-semibold leading-none text-secondary">
                         Sabreena
                         Construction
-                    </Typography>
+                    </h3>
                 </div>
-                <ul className="flex flex-wrap items-center gap-x-5 gap-y-2">
+                <ul className="flex flex-wrap items-center gap-x-8 gap-y-2">
                     {links.map(
                         (link) => (
                             <li
