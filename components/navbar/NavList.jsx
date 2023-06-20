@@ -1,7 +1,6 @@
 import { links } from "@/data/dummy";
-import { Typography } from "@material-tailwind/react";
 import React from "react";
-import NavLink from "../NavLink";
+import NavLink from "./NavLink";
 
 export default function NavList() {
     return (

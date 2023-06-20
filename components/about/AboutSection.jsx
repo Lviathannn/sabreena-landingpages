@@ -1,9 +1,9 @@
 import CaptionTitle from "@/components/CaptionTitle";
 import TextCaption from "@/components/TextCaption";
+import WhyChoose from "@/components/about/WhyChoose";
 import { aboutUsText } from "@/data/dummy";
 import Image from "next/image";
 import Link from "next/link";
-import WhyChoose from "./WhyChoose";
 
 export default function AboutSection() {
     return (
@@ -14,7 +14,7 @@ export default function AboutSection() {
             <CaptionTitle
                 firstWord="About"
                 secondWord="Us"
-                subtitle="Siapa Kami?"
+                subtitle="Tentang Kami"
             />
             <div className=" flex flex-col items-center justify-around gap-24 md:gap-10 lg:flex-row">
                 <Image

@@ -1,9 +1,8 @@
 "use client";
+import NavLink from "@/components/navbar/NavLink";
 import { links } from "@/data/dummy";
 import { Typography } from "@material-tailwind/react";
 import Image from "next/image";
-import { Link } from "react-scroll";
-import NavLink from "../NavLink";
 
 export default function Example() {
     return (
@@ -25,17 +24,14 @@ export default function Example() {
                 <ul className="flex flex-wrap items-center gap-x-8 gap-y-2">
                     {links.map(
                         (link) => (
-                            <li
+                            <NavLink
+                                target={
+                                    link
+                                }
                                 key={
                                     link
                                 }
-                            >
-                                <NavLink
-                                    target={
-                                        link
-                                    }
-                                />
-                            </li>
+                            />
                         )
                     )}
                 </ul>

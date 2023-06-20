@@ -6,7 +6,7 @@ import {
     IconButton,
     Collapse,
 } from "@material-tailwind/react";
-import NavList from "./NavList";
+import NavList from "@/components/navbar/NavList";
 
 export default function Navbar() {
     const [openNav, setOpenNav] =
@@ -25,7 +25,7 @@ export default function Navbar() {
     return (
         <>
             <Nav className="navbar sticky inset-0 z-10 h-max max-w-full rounded-none !px-4 !py-3 !shadow-none md:!px-12 lg:py-4 xl:!px-28">
-                <div className="flex items-center justify-between text-blue-gray-900">
+                <div className="flex items-center justify-between">
                     <Typography
                         as="a"
                         href="#"
@@ -54,7 +54,7 @@ export default function Navbar() {
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"
-                                    className="h-6 w-6"
+                                    className="h-6 w-6 text-secondary"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
                                     strokeWidth={
@@ -70,7 +70,7 @@ export default function Navbar() {
                             ) : (
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="h-6 w-6"
+                                    className="h-6 w-6 text-secondary"
                                     fill="none"
                                     stroke="currentColor"
                                     strokeWidth={
