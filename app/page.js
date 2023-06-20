@@ -1,8 +1,9 @@
-import AboutSection from "@/components/about/AboutSection";
-import HomeSection from "@/components/home/HomeSection";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
+import AboutSection from "@/components/about/AboutSection";
 import ServicesSection from "@/components/services/ServicesSection";
+import DemoSection from "@/components/demo/DemoSection";
+import HomeSection from "@/components/home/HomeSection";
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
                 <HomeSection />
                 <AboutSection />
                 <ServicesSection />
+                <DemoSection />
             </main>
             <Footer />
         </>

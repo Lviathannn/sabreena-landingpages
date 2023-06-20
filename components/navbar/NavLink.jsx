@@ -14,7 +14,7 @@ export default function NavLink({
                 offset={
                     target == "Home"
                         ? -50
-                        : 0
+                        : -15
                 }
             >
                 {target}

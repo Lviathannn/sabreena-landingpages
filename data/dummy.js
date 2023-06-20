@@ -28,5 +28,46 @@ export const links = [
     "Home",
     "About",
     "Services",
+    "Demo",
     "Contact",
+];
+
+export const cardData = [
+    {
+        title: "Kontraktor Rumah",
+        cost: "2jt ~ 4jt",
+        calculated: "Dihitung Per m²",
+        img: "rumah.jpg",
+    },
+    {
+        title: "Kontraktor Gedung",
+        cost: "2,5jt ~ 5jt",
+        calculated: "Dihitung Per m²",
+        img: "gedung.jpg",
+    },
+    {
+        title: "Ornamen Besi",
+        cost: "1,2jt ~ 1,8jt",
+        calculated: "Dihitung Per m²",
+        img: "besi.jpg",
+    },
+    {
+        title: "Ornamen krawangan masjid",
+        cost: "600Rb ~ 900Rb",
+        calculated: "Dihitung Per m²",
+        img: "masjid.jpg",
+    },
+    {
+        title: "Ornamen Plafond",
+        cost: "25Rb ~ 30Rb",
+        calculated:
+            "Dihitung Per 40x60Cm",
+        img: "plafond.jpg",
+    },
+    {
+        title: "Sumur Bor",
+        cost: "250Rb ~ 400Rb",
+        calculated: "Dihitung Per m",
+        img: "sumur.jpg",
+    },
 ];
