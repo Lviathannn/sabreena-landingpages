@@ -7,7 +7,7 @@ export default function NavLink({
         <li>
             <Link
                 to={target}
-                className="text-sm font-medium text-secondary"
+                className="text-sm !font-medium text-secondary"
                 activeClass="!text-primary"
                 smooth={true}
                 spy={true}

@@ -21,8 +21,8 @@ export default function AboutSection() {
                     src="/aboutus.webp"
                     className="h-72 w-64 self-center rounded-b-md rounded-tl-md rounded-tr-[30%] bg-contain sm:h-96 sm:w-80 sm:self-start lg:h-[400px] lg:w-[350px] xl:h-[500px] xl:w-[450px]"
                     alt="About Image"
-                    width={500}
-                    height={600}
+                    width={600}
+                    height={700}
                     quality={85}
                     priority={false}
                 />

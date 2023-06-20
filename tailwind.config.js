@@ -20,6 +20,7 @@ module.exports = withMT({
                 primary: "#12AAFF",
                 secondary: "#313131",
                 tertiary: "#6B6B6B",
+                form: "#F9F9F9",
             },
             backgroundImage: {
                 hero: "url('/hero.webp')",

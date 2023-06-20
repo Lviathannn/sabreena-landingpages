@@ -35,10 +35,9 @@ export default function WhyChoose() {
                 src="/whyus.webp"
                 className="h-72 w-64 self-end rounded-b-md rounded-tl-[30%] rounded-tr-md bg-cover sm:h-96 sm:w-80 lg:h-[400px] lg:w-[350px] xl:h-[500px] xl:w-[450px]"
                 alt="About Image"
-                width={500}
-                height={600}
+                width={600}
+                height={700}
                 quality={85}
-                priority={false}
             />
         </div>
     );
