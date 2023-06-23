@@ -17,8 +17,8 @@ export default function Example() {
                         height={40}
                     />
                     <h3 className="text-lg font-semibold leading-none text-secondary">
-                        Sabreena
-                        Construction
+                        PT Sabreena Amaa
+                        Karya
                     </h3>
                 </div>
                 <ul className="flex flex-wrap items-center gap-x-8 gap-y-2">
@@ -41,8 +41,8 @@ export default function Example() {
                 color="blue-gray"
                 className="text-center font-normal"
             >
-                &copy; 2023 Sabreena
-                Construction
+                &copy; 2023 PT Sabreena
+                Amaa Karya
             </Typography>
         </footer>
     );

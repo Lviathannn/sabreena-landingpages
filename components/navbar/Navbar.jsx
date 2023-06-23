@@ -31,8 +31,8 @@ export default function Navbar() {
                         href="#"
                         className=" mr-4 cursor-pointer py-1.5 font-poppins font-semibold text-primary"
                     >
-                        Sabreena
-                        Construction
+                        PT Sabreena Amaa
+                        Karya
                     </Typography>
                     <div className="flex items-center gap-4">
                         <div className="mr-4 hidden lg:block">

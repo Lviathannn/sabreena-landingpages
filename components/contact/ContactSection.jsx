@@ -21,21 +21,15 @@ export default function ContactSection() {
                         Sekarang
                     </h3>
                     <p className="max-w-xl font-poppins text-sm text-tertiary">
-                        Jika Anda
-                        Tertarik Dengan
-                        Produk Atau
-                        Layanan
-                        Kami,Anda Bisa
-                        Menghubungi Kami
-                        Dengan Menekan
-                        Tombol Pesan
-                        Sekarang Untuk
-                        Memesan Melalui
-                        Whatsapp atau
-                        Isi Formulir
-                        dibawah Untuk
+                        Anda Dapat
+                        Menekan Tombol
+                        Pesan Sekarang
+                        Untuk Memesan
+                        Melalui whatsapp
+                        atau Isi Form
+                        Dibawah Untuk
                         Memesan Dengan
-                        Melalui Email
+                        Email
                     </p>
                 </div>
                 <div className="">
