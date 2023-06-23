@@ -28,7 +28,7 @@ export default function Card({
                     className="aspect-video w-full object-cover"
                     alt={title}
                     width={400}
-                    height={300}
+                    height={250}
                     quality={75}
                     loading="lazy"
                 />

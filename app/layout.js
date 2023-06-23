@@ -14,9 +14,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-    title: "Sabreena Construction",
+    title: "PT  Sabreena Amaa Karya",
     description:
-        "Sabreena Construction adalah perusahaan yang mengkhususkan diri dalam bidang kontraktor rumah dan gedung, serta penyedia ornamen besi, ornamen krawangan masjid, ornamen plafond, dan pembuatan sumur bor. Kami memiliki tim ahli yang terampil dan berpengalaman dalam membangun rumah dan gedung dengan standar yang tinggi serta memastikan kepuasan pelanggan.",
+        "PT  Sabreena Amaa Karya adalah perusahaan yang mengkhususkan diri dalam bidang kontraktor rumah dan gedung, serta penyedia ornamen besi, ornamen krawangan masjid, ornamen plafond, dan pembuatan sumur bor. Kami memiliki tim ahli yang terampil dan berpengalaman dalam membangun rumah dan gedung dengan standar yang tinggi serta memastikan kepuasan pelanggan.",
 };
 
 export default function RootLayout({

@@ -11,10 +11,10 @@ export default function Example() {
                 <div className="flex items-center justify-center gap-5">
                     <Image
                         src="/logo.png"
-                        alt="Sabreena Construction Logo"
+                        alt="PT  Sabreena Amaa Karya Logo"
                         className="w-10"
-                        width={50}
-                        height={50}
+                        width={40}
+                        height={40}
                     />
                     <h3 className="text-lg font-semibold leading-none text-secondary">
                         Sabreena

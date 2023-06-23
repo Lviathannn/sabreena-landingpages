@@ -21,15 +21,15 @@ export default function AboutSection() {
                     src="/aboutus.webp"
                     className="h-72 w-64 self-center rounded-b-md rounded-tl-md rounded-tr-[30%] bg-contain sm:h-96 sm:w-80 sm:self-start lg:h-[400px] lg:w-[350px] xl:h-[500px] xl:w-[450px]"
                     alt="About Image"
-                    width={600}
-                    height={700}
-                    quality={85}
+                    width={450}
+                    height={500}
+                    quality={75}
                     priority={false}
                 />
                 <article className="flex flex-col justify-start gap-5  sm:self-end lg:self-start">
                     <h3 className="text-[28px] font-semibold leading-none text-secondary">
-                        Sabreena
-                        Construction
+                        PT Sabreena Amaa
+                        Karya
                     </h3>
                     <TextCaption
                         customClassName=""
